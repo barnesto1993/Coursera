@@ -1,0 +1,202 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+}
+
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+/* Desktop Version*/
+@media (min-width: 992px){ 
+
+/* Outside boxes*/
+#boxes #Box1, #Box2, #Box3{
+display: block;
+width: 30%;
+height: 15%;
+border: 3px solid black;
+background-color: grey;
+float: left;
+margin-left: 20px;
+padding: 0% 0% 1% 1%;
+position:static;
+left: 25%;
+}
+
+/*Inside Boxes*/
+.chickenbox, .beefbox, .sushibox {
+    padding: 4px 22px 4px 22px;
+	float: right;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid black;
+
+}
+
+.chickenbox {
+  background: #ee99d1;
+   	
+
+}
+.beefbox {
+	background-color: #d22a00;
+	padding:4px 32px 4px 32px;
+    color: white;
+	
+}
+
+.sushibox {
+	background-color: #f0eb7c;
+	padding:4px 32px 4px 32px;
+
+	}
+
+
+#Box1 {
+
+}
+
+#Box2 {
+
+
+}
+
+#Box3 {
+	font-size: 
+	}	
+}
+
+
+/*Tablet Version*/
+@media (min-width: 768px) and (max-width: 991px){
+	
+	/* Outside boxes*/
+#boxes #Box1, #Box2, #Box3{
+width: 45%;
+height: 165px;
+border: 3px solid black;
+background-color: grey;
+float: left;
+padding: 0% 0% 1% 1%;
+margin-left: 2%;
+margin-right: 1%;
+font-size: 104%;
+position:relative;
+left: 1%;
+
+}
+
+/*Inside Boxes*/
+.chickenbox, .beefbox, .sushibox {
+    padding: 4px 22px 4px 22px;
+	float: right;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    border: 2px solid black;
+
+}
+
+.chickenbox {
+  background: #ee99d1;
+   	
+
+}
+.beefbox {
+	background-color: #d22a00;
+	padding:4px 32px 7px 32px;
+	height: 23%;
+    color: white;
+	
+}
+
+.sushibox {
+	background-color: #f0eb7c;
+	padding:4px 32px 4px 32px;
+	}
+
+
+#Box1 {
+
+}
+
+#Box2 {
+	
+
+}
+
+#Box3 {
+	width: 93%;
+	height: 40%;
+	font-size: 119%;
+
+	}	
+}
+
+
+@media (max-width: 767px) {
+
+		/* Outside boxes*/
+#boxes #Box1, #Box2, #Box3{
+width: 30%;
+height: 15%;
+border: 3px solid black;
+background-color: grey;
+float: left;
+margin-left: 30px;
+position:static;
+left: 25%;
+}
+
+/*Inside Boxes*/
+.chickenbox, .beefbox, .sushibox {
+    padding: 4px 22px 4px 22px;
+	float: right;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid black;
+
+}
+
+.chickenbox {
+  background: #ee99d1;
+   	
+
+}
+.beefbox {
+	background-color: #d22a00;
+	padding:4px 32px 4px 32px;
+    color: white;
+	
+}
+
+.sushibox {
+	background-color: #f0eb7c;
+	padding:4px 32px 4px 32px;
+	}
+
+
+#Box1 {
+
+}
+
+#Box2 {
+
+
+}
+
+#Box3 {	
+
+	}	
+}
+
+
+}
+
