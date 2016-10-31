@@ -1,0 +1,22 @@
+body {
+font-family: 'Asap', sans-serif;
+padding-top: 10%}
+
+#lorem {
+	background-color: rgba(45,155,178, 0.2);
+	border-radius: 3px;
+	font-size: 1.2em;
+	margin: 0 8px 8px 8px;
+}
+
+
+
+
+
+a:hover, a:active{
+	background-color: #c60801;
+	font-size: 18px;
+	font-weight: bold;
+	transition-duration: 0.5s;	
+	color: black;
+}
